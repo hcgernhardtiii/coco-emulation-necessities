@@ -16,7 +16,8 @@ Please note that, though I have tested these binaries on other machines, I can't
   - I recommend invoking MAME from the command line, as doing so:
     1) allows you to explicitly set MAME's working directory
 	2) allows for relatively rapid invocation with all appropriate options selected
-	3) requires zero to minimal faffing with .ini files
+	3) requires zero to minimal faffing with .ini files.
+	
 	Remember that, by default, MAME looks for rom files in `.\roms` under Windows, and `~/mame/roms` under Linux.  You can also use the `-rompath` command-line option to set where MAME looks for its roms.
   - Invoke MAME from the command line using:
     - for a CoCo 1 or CoCo 2: `mame coco -ext fdc,bios=hdbk12`
