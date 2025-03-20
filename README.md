@@ -36,7 +36,7 @@ Please note that, though I have tested these binaries on other machines, I can't
 	5) <kbd>↑</kbd><kbd>Enter</kbd> to return to the main UI menu
 	6) <kbd>↑</kbd><kbd>↑</kbd><kbd>Enter</kbd> to close the UI menu and save the settings
 	7) <kbd>esc</kbd> to close the emulator
-	8) re-invoke the emulator using the same command line (In case you didn't know: <kdb>↑</kbd> at the command line brings back the last command you entered, so you can use that here for expediency)
+	8) re-invoke the emulator using the same command line (In case you didn't know: <kbd>↑</kbd> at the command line brings back the last command you entered, so you can use that here for expediency)
 - If you're using XRoar:
   - I recommend invoking XRoar from the command line for much the same reason I do MAME.
   - Invoke XRoar from the command line using:
