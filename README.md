@@ -17,7 +17,7 @@ Please note that, though I have tested these binaries on other machines, I can't
     1) allows you to explicitly set MAME's working directory
 	2) allows for relatively rapid invocation with all appropriate options selected
 	3) requires zero to minimal faffing with .ini files.
-	
+
 	Remember that, by default, MAME looks for rom files in `.\roms` under Windows, and `~/mame/roms` under Linux.  You can also use the `-rompath` command-line option to set where MAME looks for its roms.
   - Invoke MAME from the command line using:
     - for a CoCo 1 or CoCo 2: `mame coco -ext fdc,bios=hdbk12`
@@ -31,10 +31,10 @@ Please note that, though I have tested these binaries on other machines, I can't
   - If the emulator hangs, you'll need to activate the Becker port in the Machine Settings menu and restart MAME:
     1) Either <kbd>Scroll Lock</kbd> (Windows, I think) or <kbd>Insert</kbd> (Linux, I think) should toggle UI active status
 	2) With UI active, <kbd>tab</kbd> activates the menu.
-	3) Select “Machine Configuration” (should be the second menu entry, simple <kbd>↓<kbd><kbd>Enter</kbd> should do the trick)
+	3) Select “Machine Configuration” (should be the second menu entry, simple <kbd>↓</kbd><kbd>Enter</kbd> should do the trick)
 	4) Toggle the becker port (should be the first entry, <kbd>Enter</kbd> will do here)
-	5) <kdb>↑</kbd><kbd>Enter</kbd> to return to the main UI menu
-	6) <kdb>↑</kbd><kdb>↑</kbd><kbd>Enter</kbd> to close the UI menu and save the settings
+	5) <kbd>↑</kbd><kbd>Enter</kbd> to return to the main UI menu
+	6) <kbd>↑</kbd><kbd>↑</kbd><kbd>Enter</kbd> to close the UI menu and save the settings
 	7) <kbd>esc</kbd> to close the emulator
 	8) re-invoke the emulator using the same command line (In case you didn't know: <kdb>↑</kbd> at the command line brings back the last command you entered, so you can use that here for expediency)
 - If you're using XRoar:
